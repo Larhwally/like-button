@@ -26,6 +26,18 @@ namespace LikeButtonApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("*");
+                        builder.AllowAnyOrigin();
+                        builder.AllowAnyMethod();
+                        builder.AllowAnyHeader();
+
+                    });
+            });
             services.AddControllers();
             services.Add(new ServiceDescriptor(typeof(LikeContext), new LikeContext(Configuration.GetConnectionString("DefaultConnection"))));
         }
@@ -41,6 +53,8 @@ namespace LikeButtonApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 
