@@ -1,5 +1,5 @@
 # Like-Button 
-A like-button feature web application which includes a web API built with C# on .netcore framework, MySQL database used for the database which includes a single table with a single column 'likesCount' to keep record of like counts, HTML and Javascript for the front-end implementation and API consumption.
+A like-button feature web application which includes a web API built with C# on .net framework, MySQL database used for the database which includes a single table with a single column 'likesCount' to keep record of like counts, HTML and Javascript for the front-end implementation and API consumption.
 
 ## Getting Started
 Start by cloning the project from the git repository into your local machine and import the sql script file to generate the database 
