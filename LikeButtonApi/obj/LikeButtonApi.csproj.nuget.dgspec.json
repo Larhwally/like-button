@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MYPROJECTS\\.NET Core Tut\\TutorialNetCore\\LikeButtonDev\\LikeButtonApi\\LikeButtonApi.csproj": {}
+  },
+  "projects": {
+    "C:\\MYPROJECTS\\.NET Core Tut\\TutorialNetCore\\LikeButtonDev\\LikeButtonApi\\LikeButtonApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MYPROJECTS\\.NET Core Tut\\TutorialNetCore\\LikeButtonDev\\LikeButtonApi\\LikeButtonApi.csproj",
+        "projectName": "LikeButtonApi",
+        "projectPath": "C:\\MYPROJECTS\\.NET Core Tut\\TutorialNetCore\\LikeButtonDev\\LikeButtonApi\\LikeButtonApi.csproj",
+        "packagesPath": "C:\\Users\\lawal\\.nuget\\packages\\",
+        "outputPath": "C:\\MYPROJECTS\\.NET Core Tut\\TutorialNetCore\\LikeButtonDev\\LikeButtonApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lawal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.20601.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
