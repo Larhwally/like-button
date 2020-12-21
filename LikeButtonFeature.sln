@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30803.129
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LikeButtonApi", "LikeButtonApi\LikeButtonApi.csproj", "{E5C50749-068F-4C17-B056-D5DCC80F2FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LikeButtonApi", "LikeButtonApi\LikeButtonApi.csproj", "{E5C50749-068F-4C17-B056-D5DCC80F2FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F45EDA6-26DE-4DD1-A574-71F0FA2A9823}"
+	ProjectSection(SolutionItems) = preProject
+		LikeButton.js = LikeButton.js
+		LikeButtonPage.html = LikeButtonPage.html
+		Style.css = Style.css
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

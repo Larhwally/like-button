@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Like button</title>
+    <link href="./Style.css" rel="stylesheet" />
+</head>
+<body onload="getLikesCount()">
+    <form>
+        <div>
+            <input type="button" id="btn-like" value="LIKE" onclick="incrementValue()" />
+            <input type="text" id="like-counter" value="0" disabled />
+        </div>
+    </form>
+
+    <script src="./LikeButton.js"></script>
+</body>
+</html>
