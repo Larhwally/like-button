@@ -40,6 +40,7 @@ namespace LikeButtonWeb.Data
             return likesCount;
         }
 
+        //A method to post like counts to db
         public bool PostLikesCount(LikeModel model)
         {
             //LikeModel model = new LikeModel();
