@@ -18,5 +18,5 @@ After cloning the project to your local machine, some settings has to be changed
 
 ## Run Test
 - You can use the run button on Visual studio to start up the web API or navigate to the project folder from your CLI and run by typing 'dotnet run'
-- From your CLI navigate to the project directory serve the project folders using the php code 'serve .' then load up the html page.
+- Navigate to project folder and Open `likeButtonPage.html` a web browser or serve it using a static file server.
 
